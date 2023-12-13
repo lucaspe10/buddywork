@@ -11,8 +11,8 @@ const HomePage = () => {
           <UserImage />
         </div>
         <div className="w-full flex flex-col md:flex-row lg:flex-row justify-center mx-auto">
-          <Rectangle />
-          <Rectangle />
+          <Rectangle image="/vercel.svg" title="stress" path="stress" />
+          <Rectangle image="/next.svg" title="motivazione" path="motivazione" />
         </div>
       </div>
     </div>
