@@ -1,12 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
-interface RectangleProps {
-  image?: string;
-  title?: string;
-  path?: string;
-}
+import { RectangleProps } from "../types/Props";
 
 export default function Rectangle({
   image,
