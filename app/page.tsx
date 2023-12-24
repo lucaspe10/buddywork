@@ -1,6 +1,7 @@
 import React from "react";
 import Rectangle from "../components/rectangle";
 import RectangleHigh from "../components/rectanglehigh";
+import RectangleBig from "@/components/rectanglebig";
 import UserImage from "../components/user_image";
 import NavBar from "../components/navbar";
 
@@ -13,8 +14,8 @@ const HomePage = () => {
           <UserImage />
         </div>
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-x-10.5 ">
-          <div className="col-span-2 w-4/4">
-            <Rectangle
+          <div className="col-span-2 w-80 ">
+            <RectangleBig
               image="/Ellipse 9.png"
               title="Motivazione"
               testo1="Spinta interiore che porta ad impegnarsi con serietà e diligenza nella propria attività"
@@ -32,13 +33,29 @@ const HomePage = () => {
 
             />
           </div>
-
-          <Rectangle image="/stress.png" title="Stress" path="stress" />
-          <Rectangle image="/burnout.png" title="Burnout" path="burnout" />
-          <Rectangle image="/personalità.png" title="Personalità" path="personalità" />
-          <Rectangle image="/soddisfazione.png" title="Soddisfazione" path="soddisfazione" />
+          <Rectangle 
+              image="/stress.png" 
+              title="Stress" 
+              path="stress" />
+          <Rectangle 
+              image="/burnout.png" 
+              title="Burnout" 
+              path="burnout" />
+          <Rectangle 
+              image="/personalità.png" 
+              title="Personalità" 
+              path="personalità" />
+          <Rectangle 
+              image="/soddisfazione.png" 
+              title="Soddisfazione" 
+              path="soddisfazione" />
+              
           <div className="col-span-2 w-4/4 h-6">
-          <NavBar image="/home.png" image2="/chatbot.png" image3="/profilo.png" image4="/impostazioni.png"/>
+          <NavBar 
+              image="/home.png" 
+              image2="/chatbot.png" 
+              image3="/profilo.png" 
+              image4="/impostazioni.png"/>
           </div>
         </div>
       </div>

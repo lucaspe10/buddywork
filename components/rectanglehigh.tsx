@@ -16,20 +16,20 @@ export default function Rectangle({
   return (
     <Link
     href={path ?? "/"}
-    className="relative bg-gray-500 bg-opacity-25  mx-1 m-1  rounded-xl lg:w-2/5 md:w-2/5 overflow-hidden flex items-center  "
+    className="relative right-3 w-36 bg-gray-500 bg-opacity-25  mx-1 m-1  rounded-xl lg:w-2/5 md:w-2/5 overflow-hidden flex items-center  "
   >
     <div className="w-3/4 p-4 my-12">
-      <h3 className="text-xl font-bold mb-4">{title}</h3>
-      <h2 className="text-sm  mb-4">{testo1}</h2>
+    <h1 className="text-3xl font-bold ">{title}</h1>
+      <h2 className="text-sm ">{testo1}</h2>
     </div>
-    <div className="w-1/4 relative">
+    <div className="absolute bottom-0 left-1/2 transform w-5/6 -translate-x-1/2 mb-4"
+>
       <img
         src={image ?? "/Ellipse o.jpg"}
         alt="Picture of the author"
-        className="absolute inset-0 w-30 h-50 object-cover"
-      />
+        />
       <div className="absolute inset-0 flex items-center justify-center text-white">
-        <h1 className="text-center font-bold text-green-500">{testo2}</h1>
+      <h3 className="text-center font-bold text-2xl text-green-500 mt ">{testo2}</h3>
       </div>
     </div>
   </Link>
