@@ -36,30 +36,31 @@ const HomePage = () => {
           <Rectangle 
               image="/stress.png" 
               title="Stress" 
+              testo1="76%"
               path="stress" />
           <Rectangle 
               image="/burnout.png" 
               title="Burnout" 
+              testo1="45%"
               path="burnout" />
           <Rectangle 
               image="/personalità.png" 
               title="Personalità" 
-              path="personalità" />
+              path="personalita" />
           <Rectangle 
               image="/soddisfazione.png" 
               title="Soddisfazione" 
               path="soddisfazione" />
               
-          <div className="col-span-2 w-4/4 h-6">
           <NavBar 
-              image="/home.png" 
+              image="/home.png"
               image2="/chatbot.png" 
               image3="/profilo.png" 
-              image4="/impostazioni.png"/>
+              image4="/impostazioni.png"
+              />
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

@@ -11,41 +11,47 @@ export default function Rectangle({
   path,
 }: Readonly<RectangleProps>) {
   return (
-    <div className="w-4/5 h-40 mx-auto m-4 rounded-xl lg:w-2/5 md:w-2/5">
-      <Link href={path ?? "/"}>
-        <div className="bg-gray-500 bg-opacity-25 w-full flex items-center justify-center rounded-xl overflow-hidden ">
-          <div className="flex space-x-2">
-            <div className="w-20 h-auto max-w-xs">
-              <Image 
-                  src={image ?? "/marco.jpg"} 
-                  alt="Picture of the author" 
-                  width={200} 
-                  height={200} />
+          <div className=" bg-gray-500 bg-opacity-25 w-80 h-10 mx-1 m-4 rounded-xl lg:w-2/5 md:w-2/5 overflow-hidden flex items-center space-x-2 fixed bottom-0 ">
+          <Link href={path ?? "/"}>
+              <div className="w-10  max-w-xs ">
+                <Image 
+                    src={image ?? "/marco.jpg"} 
+                    alt="Picture of the author" 
+                    width={200} 
+                    height={200} 
+                    />
+              </div>
+            </Link>
+            <div className="p-2"></div>
+              <Link href={path ?? "/"}>
+              <div className="w-10 h-auto max-w-xs">
+                <Image 
+                    src={image2 ?? "/marco.jpg"} 
+                    alt="Picture of the author" 
+                    width={200} 
+                    height={200} />
+              </div>
+            </Link>
+            <div className="p-2"></div>
+            <Link href={path ?? "/"}>
+              <div className="w-10 h-auto max-w-xs">
+                <Image 
+                    src={image3 ?? "/marco.jpg"} 
+                    alt="Picture of the author" 
+                    width={200} 
+                    height={200} />
+              </div>
+            </Link>
+            <div className="p-2"></div>
+            <Link href={path ?? "/"}>
+              <div className="w-10 h-auto max-w-xs">
+                <Image 
+                    src={image4 ?? "/marco.jpg"} 
+                    alt="Picture of the author" 
+                    width={200} 
+                    height={200} />
+              </div>
+            </Link>
             </div>
-            <div className="w-20 h-auto max-w-xs">
-              <Image 
-                  src={image2 ?? "/marco.jpg"} 
-                  alt="Picture of the author" 
-                  width={200} 
-                  height={200} />
-            </div>
-            <div className="w-20 h-auto max-w-xs">
-              <Image 
-                  src={image3 ?? "/marco.jpg"} 
-                  alt="Picture of the author" 
-                  width={200} 
-                  height={200} />
-            </div>
-            <div className="w-20 h-auto max-w-xs">
-              <Image 
-                  src={image4 ?? "/marco.jpg"} 
-                  alt="Picture of the author" 
-                  width={200} 
-                  height={200} />
-            </div>
-          </div>
-          </div>
-      </Link>
-    </div>
   );
 }

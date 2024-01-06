@@ -3,6 +3,7 @@ export interface RectangleProps {
   title?: string;
   testo1?: string;
   testo2?: string;
+  testo3?: string;
   image2?: string;
   image3?: string;
   image4?: string;
