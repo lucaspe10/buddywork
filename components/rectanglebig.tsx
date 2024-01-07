@@ -16,7 +16,7 @@ export default function Rectangle({
   return (
     <Link
     href={path ?? "/"}
-    className="relative bg-gray-500 bg-opacity-25 left-1 w-80 h-40 mx-1 m-4 rounded-xl lg:w-2/5 md:w-2/5 overflow-hidden flex items-center "
+    className="relative bg-gray-500 bg-opacity-25 left-1 w-80  h-40 mx-1 m-4 rounded-xl lg:w-2/5 md:w-2/5 overflow-hidden flex items-center "
   >
     <div className="w-3/4 p-4">
       <h3 className="text-2xl font-bold mb-1">{title}</h3>

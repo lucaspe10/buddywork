@@ -8,12 +8,13 @@ import NavBar from "../components/navbar";
 const HomePage = () => {
   return (
     <div className="h-screen bg-custom-background w-full p-5">
-      <div className="flex flex-col w-full mx-auto">
-        <div className="flex justify-center items-center mb-8">
-          <h1 className="text-3xl font-bold mr-6">Buddywork</h1>
-          <UserImage />
+      <div className="flex flex-col w-full mx-auto ">
+      <UserImage />
+        <div className="items-center mb-8">
+          <h1 className="text-base ml-16 -mt-12">Buongiorno,</h1>
+          <p className="text-base  ml-16 italic">Marco</p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-x-10.5 ">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 -mt-8 ">
           <div className="col-span-2 w-80 ">
             <RectangleBig
               image="/Ellipse 9.png"
@@ -23,7 +24,7 @@ const HomePage = () => {
               path="motivazione"
             />
           </div>
-          <div className="row-span-2 w-auto h-auto p-4" >
+          <div className="row-span-2 w-auto h-auto p-5" >
             <RectangleHigh
               image="/Ellipse 9.png"
               title="Engangement"
@@ -41,7 +42,7 @@ const HomePage = () => {
           <Rectangle 
               image="/burnout.png" 
               title="Burnout" 
-              testo1="45%"
+              testo2="45%"
               path="burnout" />
           <Rectangle 
               image="/personalità.png" 
