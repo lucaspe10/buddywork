@@ -17,11 +17,10 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+   color:white;
+    --tw-bg-opacity: 1;
+    background-color: rgb(33 29 42 / var(--tw-bg-opacity));
+    background-attachment: fixed;
+    background-size: contain;
 }
+

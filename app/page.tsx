@@ -7,7 +7,7 @@ import NavBar from "../components/navbar";
 
 const HomePage = () => {
   return (
-    <div className="h-screen bg-custom-background w-full p-5">
+    <div className="h-screen bg-transparent w-full bg-fixed bg p-5">
       <div className="flex flex-col w-full mx-auto ">
       <UserImage />
         <div className="items-center mb-8">
@@ -31,7 +31,6 @@ const HomePage = () => {
               testo1="Stato mentale positivo e di soddisfazione nei confronti del proprio lavoro"
               testo2="74%"
               path="engangement"
-
             />
           </div>
           <Rectangle 
@@ -52,7 +51,6 @@ const HomePage = () => {
               image="/soddisfazione.png" 
               title="Soddisfazione" 
               path="soddisfazione" />
-              
           <NavBar 
               image="/home.png"
               image2="/chatbot.png" 

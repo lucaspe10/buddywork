@@ -11,7 +11,7 @@ export default function Rectangle({
   path,
 }: Readonly<RectangleProps>) {
   return (
-          <div className=" bg-gray-500  bg-opacity-60 w-80 h-14 mx-1 m-4 rounded-xl lg:w-2/5 md:w-2/5 overflow-hidden flex items-center space-x-2 fixed bottom-0 ">
+          <div className=" bg-gray-500 backdrop-blur-lg bg-opacity-60 w-80 h-14 mx-1 m-4 rounded-xl lg:w-2/5 md:w-2/5 overflow-hidden flex items-center space-x-2 fixed bottom-0 ">
           <Link href={path ?? "/"}>
             <div className="p-8">
               <div className="w-8 h-auto">
